@@ -138,6 +138,7 @@ class OrderStateChangesTest {
         order.startOrderPreparation();
 
         assertEquals("Preparing", order.getOrderState().getStateName());
+        assertEquals("OrderDetails{productName=X-Burger, productPrice=25.4, productQuantity=2, orderState=Preparing, orderOrigin=Restaurant}", costumer.getLastOrderUpdate());
     }
 
     @Test
