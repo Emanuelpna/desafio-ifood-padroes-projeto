@@ -17,7 +17,6 @@ Fazer:
 Cada estado é um singleton
 Factory de pedidos gera pedido de mercado, restaurante, e etc
 
-
 ## Mudanças de Estados
 
 - Pedido começa como Pendente, aguardando a confirmação do estabelecimento. Podendo ser cancelado por ambas as partes.
